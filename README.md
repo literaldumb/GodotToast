@@ -32,10 +32,12 @@ Add the following in the engine.cfg file:
 > var toastLib = Globals.get_singleton("GodotToast")
 
 > toastLib.initToast(true/false) # initializes the Toast library.
+
 > toastLib.puke(message,duration) # displays the string "message" for duration(integer: 0{short} or 1{long}) seconds on the screen
 
 **Note: 
 toastLib.initToast(true) enables the use of toastLib.puke()
+
 toastLib.initToast(false) disables all calls to toastLib.puke() internally. No need to remove or comment them out
 **
 
