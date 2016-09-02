@@ -3,7 +3,7 @@
 - Godot version 2.0.4.1 stable.
 - Copyright [TeamKrishna](http://teamkrishna.in)
 - Tested on Marshmallow.
-- Use the readymade binaries from the bin folder directly in godot. 
+- Use the readymade packages from the apk folder directly as custom package during godot export 
 - Uses only Toast.makeText() as of now. Can be extended to wrap all the available methods of Android Toast
 
 ##How to use
