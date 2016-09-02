@@ -7,12 +7,12 @@
 - Uses only Toast.makeText() as of now. Can be extended to wrap all the available methods of Android Toast
 
 ##How to use
-- Drop the GodotToast folder inside godot/modules
+- Drop the toast folder inside godot/modules
 
-- Move the GodotToast/GodotToast.java to godot/platform/android/java/src/org/godotengine/godot
+- Move the toast/GodotToast.java to godot/platform/android/java/src/org/godotengine/godot
 
 
-**Note:** The GodotToast/android.jar is taken from  *android-sdk-linux/platforms/android-23*. You may choose to use any other api version.
+**Note:** The toast/android.jar is taken from  *android-sdk-linux/platforms/android-23*. You may choose to use any other api version.
 
 ###Compile
 1. #> scons platform=android
